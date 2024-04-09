@@ -13,7 +13,8 @@ export default function App() {
       <View style={styles.imageContainer}>
         <Image source={testImage} style={styles.image}/>
       </View>
-      <Button label='Press Me' />
+      <Button label='Choose personal photo' theme='primary' />
+      <Button label='Use this photo' theme='none' />
       <StatusBar style="auto" />
     </View>
   );
